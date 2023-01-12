@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+    <style type="text/css">
+        iframe 
+           {
+              display:none;
+              width:10%;
+              border:none; 
+           }
+           button 
+           {
+               color: white;
+              margin: 5% 10%;
+              padding: 1% 5%;
+              background-color: green;
+              font-size: larger;
+              border-color: white;
+           }
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+    <title>Registrar mi asistencia</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ol.css">
+</head>
+
+<body>
+    <main role="main" class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>
+                    Registrar mi asistencia personal
+                </h1>
+                <p id="estado"></p>
+                
+                <button>Dar Asistencia</button>
+                <iframe id="myIframe" src="receivedData"></iframe>
+                <!--a href="https://parzibyte.me/blog">By Parzibyte</! a-->
+            </div>
+            <div class="col-12">
+                <div id="mapa" style="min-height: 500; height: 600px;"></div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/ol.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
