@@ -63,10 +63,10 @@ const init = () => {
         let coordenadas = `${latitude},${longitude}`
         let url = "https://script.google.com/macros/s/AKfycbyBKUPeFb7-0koavg28rJZM59FPQTF3HyRraLNBKNjMe6ynA5n2yG5UfwAgjGpLQbWkGA/exec?legajo=" + legajo + "&nombre=" + nombre + "&coordenadas=" + coordenadas;
         
-        alert('¡Asistencia confirmada!'); 
+        alert('¡Asistencia confirmada! Ya puede cerrar la página.'); 
     
         document.getElementById("myIframe").src = url;
- 
+        //window.location.href= url;
         }
     }
 

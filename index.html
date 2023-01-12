@@ -10,11 +10,15 @@
            button 
            {
                color: white;
-              margin: 5% 10%;
+              margin-bottom: 2% !important;
               padding: 1% 5%;
               background-color: green;
               font-size: larger;
               border-color: white;
+           }
+           h5
+           {
+            margin: 5% 20%;
            }
 </style>
 <head>
@@ -34,11 +38,13 @@
                 <h1>
                     Registrar mi asistencia personal
                 </h1>
+                <h5>
+                    Aquí puedes ver tu ubicación en tiempo real. <br> Para registrar tu asistencia, has clic en <strong>"Dar Asistencia"</strong>. Te pedira que ingreses tu numero de Legajo (otorgado por la empresa), luego tu nombre y listo.  
+                </h5>
                 <p id="estado"></p>
                 
-                <button>Dar Asistencia</button>
+                <button title="Si no visualiza el mapa y no funciona el boton, debe dar permiso de acceso a la ubicación (Haga Click en el icono del lado izquierdo de la barra de navegación &#128274; 'información del sitio' y permita la ubicación)">Dar Asistencia</button>
                 <iframe id="myIframe" src="receivedData"></iframe>
-                <!--a href="https://parzibyte.me/blog">By Parzibyte</! a-->
             </div>
             <div class="col-12">
                 <div id="mapa" style="min-height: 500; height: 600px;"></div>
