@@ -10,7 +10,7 @@
            button 
            {
                color: white;
-              margin-bottom: 2% !important;
+              margin-bottom: 1% !important;
               padding: 1% 5%;
               background-color: green;
               font-size: larger;
@@ -18,7 +18,7 @@
            }
            h5
            {
-            margin: 5% 20%;
+            margin: 5% 10%;
            }
 </style>
 <head>
@@ -44,10 +44,14 @@
                 <p id="estado"></p>
                 
                 <button title="Si no visualiza el mapa y no funciona el boton, debe dar permiso de acceso a la ubicación (Haga Click en el icono del lado izquierdo de la barra de navegación &#128274; 'información del sitio' y permita la ubicación)">Dar Asistencia</button>
+                <br>
+                <p>"Si no visualiza el mapa y no funciona el boton, debe dar permiso de acceso a la ubicación (Haga Click en el icono del lado izquierdo de la barra de navegación &#128274; 'información del sitio' y permita la ubicación)"</p>
                 <iframe id="myIframe" src="receivedData"></iframe>
             </div>
             <div class="col-12">
                 <div id="mapa" style="min-height: 500; height: 600px;"></div>
+                <br>
+                <p><b>Nota:</b> Esta aplicación solo compartira los siguientes datos con la empresa cuando usted presione el boton DAR ASISTENCIA: Legajo, Nombre, Ubicación y Fecha. No se registra la ubicación continuamente, solo al presionar y enviar los datos.</p>
             </div>
         </div>
     </main>
