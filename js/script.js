@@ -58,10 +58,9 @@ const init = () => {
      
         button.onclick = function() {
     
-        let legajo = prompt('Ingresá tu legajo');
         let nombre = prompt('Ingresá tu nombre');
         let coordenadas = `${latitude},${longitude}`
-        let url = "https://script.google.com/macros/s/AKfycbyBKUPeFb7-0koavg28rJZM59FPQTF3HyRraLNBKNjMe6ynA5n2yG5UfwAgjGpLQbWkGA/exec?legajo=" + legajo + "&nombre=" + nombre + "&coordenadas=" + coordenadas;
+        let url = "https://script.google.com/macros/s/AKfycbwI1jneovyY3qo4S_b8TIqNTrQWk4nZ5qTaEAwZI98XdQDYaKAiJcR1gd3MzR1jIygwGw/exec?nombre=" + nombre + "&coordenadas=" + coordenadas;
         
         alert('¡Asistencia confirmada! Ya puede cerrar la página.'); 
     
