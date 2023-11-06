@@ -60,7 +60,7 @@ const init = () => {
     
         let nombre = prompt('Ingresá tu nombre');
         let coordenadas = `${latitude},${longitude}`
-        let url = "https://script.google.com/macros/s/AKfycbwI1jneovyY3qo4S_b8TIqNTrQWk4nZ5qTaEAwZI98XdQDYaKAiJcR1gd3MzR1jIygwGw/exec?nombre=" + nombre + "&coordenadas=" + coordenadas;
+        let url = "https://script.google.com/macros/s/AKfycbxJdZaJn3fHpeHgz3qqT9wcmnd6iRfx0IdQtAwIY-AUUYqqLl8NlqRkfO_qsFS14z_Q7Q/exec?nombre=" + nombre + "&coordenadas=" + coordenadas;
         
         alert('¡Asistencia confirmada! Ya puede cerrar la página.'); 
     
